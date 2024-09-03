@@ -1,0 +1,26 @@
+﻿building_forestry = {
+	building_group = bg_forestry
+	texture = "gfx/interface/icons/building_icons/tree_farm.dds"
+	city_type = wood
+	terrain_manipulator = forestry
+	levels_per_mesh = 0
+	
+	unlocking_technologies = {
+		improved_fertilizer
+	}
+
+	production_method_groups = {
+		pmg_forestry_production_base
+		pmg_forestry_trees
+		pmg_equipment
+		pmg_transportation_building_forestry
+	}
+
+	required_construction = construction_cost_high
+
+	can_build_private = {
+		always = no
+	}
+	
+	ownership_type = self
+}

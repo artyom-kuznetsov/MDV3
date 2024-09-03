@@ -1,0 +1,31 @@
+﻿GLOBAL = {
+	every_state = {
+		if = {
+			limit = {
+				is_densely_forested = yes
+				NOT = { has_state_trait = state_trait_densely_forested_terrain }
+			}
+			state_region = { add_state_trait = state_trait_densely_forested_terrain }
+		}
+	}
+	every_state = {
+		if = {
+			limit = {
+				is_difficult_terrain = yes
+				NOT = { has_state_trait = state_trait_iex_difficult_terrain }
+				vtm_is_active_trigger = no
+			}
+			state_region = { add_state_trait = state_trait_iex_difficult_terrain }
+		}
+	}
+	every_state = {
+		if = {
+			limit = {
+				is_very_difficult_terrain = yes
+				NOT = { has_state_trait = state_trait_iex_very_difficult_terrain }
+				vtm_is_active_trigger = no
+			}
+			state_region = { add_state_trait = state_trait_iex_very_difficult_terrain }
+		}
+	}
+}

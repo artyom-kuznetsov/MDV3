@@ -1,0 +1,136 @@
+﻿pm_no_filtering = {
+	texture = "gfx/interface/icons/production_method_icons/filtering_disabled.dds"
+}
+
+pm_filtering_lead_mine = {
+	texture = "gfx/interface/icons/production_method_icons/filtering.dds"
+	
+	unlocking_technologies = {
+		bessemer_process
+	}
+	
+	unlocking_production_methods = {
+		pm_atmospheric_engine_pump_building_lead_mine
+		pm_condensing_engine_pump_building_lead_mine
+		pm_diesel_pump_building_lead_mine
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 1
+			goods_output_lead_add = -10
+			
+			# output goods
+			goods_output_sulfur_add = 8
+		}
+	}
+}
+
+pm_advanced_filtering_lead_mine = {
+	texture = "gfx/interface/icons/production_method_icons/advanced_filtering.dds"
+	
+	unlocking_technologies = {
+		open_hearth_process
+	}
+	
+	unlocking_production_methods = {
+		pm_condensing_engine_pump_building_lead_mine
+		pm_diesel_pump_building_lead_mine
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 1
+			goods_input_fertilizer_add = 2
+			goods_output_lead_add = -20
+			
+			# output goods
+			goods_output_sulfur_add = 16
+		}
+	}
+}
+
+pm_filtering_sulfur_mine = {
+	texture = "gfx/interface/icons/production_method_icons/filtering.dds"
+	
+	unlocking_technologies = {
+		bessemer_process
+	}
+	
+	unlocking_production_methods = {
+		pm_atmospheric_engine_pump_building_sulfur_mine
+		pm_condensing_engine_pump_building_sulfur_mine
+		pm_diesel_pump_building_sulfur_mine
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 1
+			goods_output_sulfur_add = -9
+			
+			# output goods
+			goods_output_coal_add = 15
+		}
+	}
+}
+
+pm_advanced_filtering_sulfur_mine = {
+	texture = "gfx/interface/icons/production_method_icons/advanced_filtering.dds"
+	
+	unlocking_technologies = {
+		open_hearth_process
+	}
+	
+	unlocking_production_methods = {
+		pm_condensing_engine_pump_building_sulfur_mine
+		pm_diesel_pump_building_sulfur_mine
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 1
+			goods_input_fertilizer_add = 2
+			goods_output_sulfur_add = -18
+			
+			# output goods
+			goods_output_coal_add = 30
+		}
+	}
+}
+
+### LOGGING CAMPS ###
+
+pm_chainsaws = {
+	texture = "gfx/interface/icons/production_method_icons/chainsaws.dds"
+	unlocking_technologies = {
+		combustion_engine
+	}
+	disallowing_laws = {
+		law_industry_banned
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 10	# 400
+			goods_input_fuel_add = 5	# 250	# TOTAL 650
+			
+			goods_output_wood_add = 10	# 200	# PROFIT -450
+		}
+
+		unscaled = {
+			building_throughput_add = 0.05
+		}
+		
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = -1500
+			building_employment_machinists_add = 200
+			building_employment_engineers_add = 200
+		}
+	}
+}
+

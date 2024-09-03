@@ -1,0 +1,12 @@
+﻿
+CRO = {
+	color = { 200  130  200 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { croat }
+	capital = STATE_CROATIA
+	is_named_from_capital = yes
+}

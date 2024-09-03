@@ -1,0 +1,43 @@
+﻿pm_no_organization = {
+	texture = "gfx/interface/icons/production_method_icons/no_specialists.dds"
+	is_default = yes
+	building_modifiers = {
+
+		level_scaled = {
+			building_employment_soldiers_add = 990
+			building_employment_officers_add = 10
+			building_training_rate_add = 10
+		}
+	}
+}
+
+pm_general_training = {
+	texture = "gfx/interface/icons/production_method_icons/cavalry.dds"
+	is_default = yes
+	unlocking_technologies = {
+		general_staff
+	}
+	building_modifiers = {
+
+		level_scaled = {
+			building_employment_soldiers_add = 975
+			building_employment_officers_add = 25
+			building_training_rate_add = 18
+		}
+	}
+}
+
+pm_advanced_tactics_training = {
+	texture = "gfx/interface/icons/production_method_icons/squad_infantry.dds"
+	unlocking_technologies = {
+		military_statistics
+	}
+	building_modifiers = {
+
+		level_scaled = {
+			building_employment_soldiers_add = 925
+			building_employment_officers_add = 75
+			building_training_rate_add = 21
+		}
+	}
+}

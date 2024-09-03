@@ -1,0 +1,256 @@
+﻿
+# SYNTHETIC SILK
+
+pm_rayon = {
+	texture = "gfx/interface/icons/production_method_icons/rayon.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 15
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_fertilizer_add = 20	# 600
+			goods_input_wood_add = 40		# 800	# 1400
+
+			# output goods
+			goods_output_silk_add = 75	# 3000	# PROFIT 1600
+		}
+		
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 1000
+			building_employment_machinists_add = 2000
+			building_employment_engineers_add = 1500
+		}
+	}
+}
+
+pm_rayon_modern = {
+	texture = "gfx/interface/icons/production_method_icons/rayon_focus.dds"
+
+	unlocking_technologies = {
+		common_synthetic_polymers
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 20
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_sulfur_add = 5		# 250
+			goods_input_fertilizer_add = 25	# 850
+			goods_input_wood_add = 50		# 800	# 2000
+
+			# output goods
+			goods_output_silk_add = 95	# 3800	# PROFIT 1800
+		}
+		
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 1000
+			building_employment_machinists_add = 1500
+			building_employment_engineers_add = 2000
+		}
+	}
+}
+
+# SYNTHETIC RUBBER
+
+pm_no_synthetic_rubber = {
+	texture = "gfx/interface/icons/production_method_icons/no_artificial_silk.dds"
+	
+}
+
+pm_isoprene = {
+	texture = "gfx/interface/icons/production_method_icons/elastics.dds"
+	
+	unlocking_technologies = {
+		synthetic_rubber
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_sulfur_add = 4	# 200
+			goods_input_oil_add = 20	# 800
+			goods_output_silk_add = -30	# 1200	# 2200
+			
+			goods_output_rubber_add = 55	# 2200	# NO PROFIT	
+		}
+	}
+}
+
+pm_bytadiene = {
+	texture = "gfx/interface/icons/production_method_icons/bytadiene.dds"
+	
+	unlocking_technologies = {
+		common_synthetic_polymers
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_fuel_add = 24	# 1200
+			goods_output_silk_add = -55	# 2400	# 3400
+			
+			goods_output_rubber_add = 85	# 3400	# NO PROFIT	
+		}
+	}
+}
+
+pm_extended_rubber_facilities = {
+	texture = "gfx/interface/icons/production_method_icons/bytadiene_extended.dds"
+	
+	unlocking_technologies = {
+		common_synthetic_polymers
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_fuel_add = 36		# 1800
+			goods_output_silk_add = -80		# 3200	# 5000
+			
+			goods_output_rubber_add = 125	# 5000	# NO PROFIT	
+		}
+	}
+}
+
+### CHEMICAL PLANTS ###
+
+pm_artificial_fertilizers = {
+	texture = "gfx/interface/icons/production_method_icons/chemical_fertilizers.dds"
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 5
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_sulfur_add = 30			# 1500
+			goods_input_iron_add = 9			# 360
+
+			# output goods
+			goods_output_fertilizer_add = 90	# 2700 # PROFIT 840
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 3000
+			building_employment_machinists_add = 1000
+			building_employment_engineers_add = 500
+		}
+	}
+}
+
+pm_improved_fertilizer = {
+	texture = "gfx/interface/icons/production_method_icons/improved_fertilizer.dds"
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+
+	unlocking_technologies = {
+		improved_fertilizer
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_sulfur_add = 30
+			goods_input_iron_add = 30
+
+			# output goods
+			goods_output_fertilizer_add = 140
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 2000
+			building_employment_machinists_add = 1500
+			building_employment_engineers_add = 1000
+		}
+	}
+}
+
+pm_nitrogen_fixation = {
+	texture = "gfx/interface/icons/production_method_icons/nitrogen_fixation.dds"
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 15
+		}
+	}
+
+	unlocking_technologies = {
+		nitrogen_fixation
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_sulfur_add = 40
+			goods_input_fuel_add = 16
+			goods_input_iron_add = 30
+
+			# output goods
+			goods_output_fertilizer_add = 200
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 1000
+			building_employment_machinists_add = 2000
+			building_employment_engineers_add = 1500
+		}
+	}
+}
+
+# SYNTHETIC DYE
+
+pm_no_dye = {
+	texture = "gfx/interface/icons/production_method_icons/filtering_disabled.dds"
+	
+}
+
+pm_ink_flower_dye_production = {
+	texture = "gfx/interface/icons/production_method_icons/ink_floral_dyes.dds"
+
+	unlocking_technologies = {
+		chemical_bleaching
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_oil_add = 16			# 640
+			goods_output_fertilizer_add = -32	# 960	# 1600
+
+			goods_output_dye_add = 40			# 1600	# NO PROFIT
+		}
+	}
+}
+
+pm_dye_production = {
+	texture = "gfx/interface/icons/production_method_icons/filtering.dds"
+	
+	unlocking_technologies = {
+		aniline
+	}
+
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_output_fertilizer_add = -80	# 1200	# 2400
+
+			# output goods
+			goods_output_dye_add = 60			# 2400
+		}
+	}
+}

@@ -1,0 +1,106 @@
+﻿### VANILLA OVERRIDES ###
+
+decree_road_maintenance = {
+	texture = "gfx/interface/icons/decree/decree_road_maintenance.dds"
+	modifier = {
+		state_infrastructure_from_population_add = 1
+		state_infrastructure_from_population_max_add = 20
+		state_market_access_price_impact = 0.05
+	}
+	unlocking_technologies = { 
+		centralization
+	}
+	cost = 100
+
+	ai_weight = {
+		value = 25		
+		
+		if = {
+			limit = { 
+				OR = {
+					relative_infrastructure < 1 
+					AND = {
+						has_decree = decree_road_maintenance
+						relative_infrastructure < 1.25
+					}
+				}
+			
+			}
+			add = 100
+		}
+
+		if = {
+			limit = { 
+				OR = {
+					relative_infrastructure < 0.5
+					AND = {
+						has_decree = decree_road_maintenance
+						relative_infrastructure < 0.75
+					}
+				}
+			
+			}
+			add = 100
+		}
+
+		if = {
+			limit = { 
+				OR = {
+					relative_infrastructure < 0.25 
+					AND = {
+						has_decree = decree_road_maintenance
+						relative_infrastructure < 0.5
+					}
+				}
+			
+			}
+			add = 100
+		}		
+		
+		if = {
+			limit = { 
+				OR = {
+					relative_infrastructure >= 1.25
+					AND = {
+						has_decree = decree_road_maintenance
+						relative_infrastructure >= 1.5
+					}
+				}
+			
+			}
+			multiply = 0
+		}			
+	}
+}
+
+
+
+
+### NEW ###
+
+decree_child_care = {
+	texture = "gfx/interface/icons/decree/health.dds"
+	unlocking_technologies = {
+		human_rights
+	}
+	
+	unlocking_laws = {
+		law_private_health_insurance
+		law_public_health_insurance
+	}
+	
+	#disallowing_laws = {
+	#	law_child_labor_allowed
+	#}
+	
+	modifier = {
+		state_tax_waste_add = 0.5
+		state_birth_rate_mult = 0.05
+		state_mortality_mult = -0.05
+	}
+	cost = 200
+	
+	ai_weight = {
+		value = 0
+	}
+}

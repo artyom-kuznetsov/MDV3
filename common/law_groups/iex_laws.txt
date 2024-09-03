@@ -1,0 +1,7 @@
+﻿
+lawgroup_secondary_education = {
+	law_group_category = economy
+	
+	progressive_movement_chance = 1.25
+	regressive_movement_chance = 0.15	
+}

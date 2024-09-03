@@ -1,0 +1,111 @@
+﻿# roads
+state_building_road_network_max_level_add = {
+	color=good
+	percent = no
+	decimals = 0
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_paper_mult = {
+	color=good
+	percent = yes
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_transportation_mult = {
+	color=good
+	percent = yes
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_plastics_add = {
+	color=good
+	percent = no
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_plastics_add = {
+	color=bad
+	percent = no	
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_plastics_mult = {
+	color=good
+	percent = yes
+	game_data={
+		ai_value=0
+	}
+}
+
+
+goods_output_fuel_add = {
+	color=good
+	percent = no
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_fuel_add = {
+	color=bad
+	percent = no	
+	game_data={
+		ai_value=0
+	}
+}
+
+building_luxury_clothes_factories_throughput_add = {
+	color=bad
+	percent = no	
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_fuel_mult = {
+	decimals=0
+	color=bad
+	percent = yes
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_fuel_mult = {
+	decimals=0
+	color=good
+	percent = yes
+	game_data={
+		ai_value=0
+	}
+}
+
+
+state_education_access_add = {
+	color=good
+	percent = yes
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
+}
+
+country_institution_schools_2_max_investment_add = {
+	decimals=0
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+

@@ -1,0 +1,60 @@
+﻿pmg_automation_building_industry = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_automation_disabled
+		pm_automation_working_tools
+		pm_automation_watertube_boiler
+		pm_automation_pneumatic_conveyor
+		pm_automation_electric_drive
+		pm_automation_conveyor_production
+		pm_automation_assembly_lines
+	}
+}
+
+pmg_auto_hauling_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_manual_hauling
+		pm_steam_donkey_iex
+		pm_hauling_trucks
+	}
+}
+
+pmg_automation_building_lategame_industry = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_automation_disabled
+		pm_automation_conveyor_production_late
+		pm_automation_assembly_lines_late
+	}
+}
+
+pmg_automation_building_railway = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_automation_no_cranes
+		pm_automation_hydraulic_cranes
+		pm_automation_gantry_cranes
+		pm_automation_modern_cranes
+	}
+}
+
+pmg_automation_building_shipyard = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_automation_disabled
+		pm_automation_hydraulic_cranes_shipyard
+		pm_automation_gantry_cranes_shipyard
+		pm_automation_modern_cranes_shipyard
+	}
+}
+
+pmg_automation_building_3000 = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_automation_disabled
+		pm_automation_hydraulic_cranes_3000
+		pm_automation_gantry_cranes_3000
+		pm_automation_modern_cranes_3000
+	}
+}

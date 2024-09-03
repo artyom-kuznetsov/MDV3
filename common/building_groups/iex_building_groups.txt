@@ -1,0 +1,31 @@
+﻿bg_forestry = {
+	parent_group = bg_agriculture
+	cash_reserves_max = 25000
+	always_possible = yes
+	foreign_investment_ai_factor = 0.1
+}
+
+
+bg_mining = {
+	category = rural
+
+	economy_of_scale = yes
+	
+	discoverable_resource = yes
+	
+	capped_by_resources = yes
+	
+	lens = mine
+	
+	cash_reserves_max = 25000
+	
+	urbanization = 10
+	infrastructure_usage_per_level = 2
+	
+	should_auto_expand = { 
+		default_auto_expand_rule = yes
+	}
+	
+	economy_of_scale_ai_factor = 2.0
+	foreign_investment_ai_factor = 1.0
+}

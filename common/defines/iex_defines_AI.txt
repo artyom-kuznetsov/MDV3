@@ -1,0 +1,38 @@
+﻿NAI = {
+	NUM_DAYS_TO_REMEMBER_FAILED_TRADE = 45 # 90
+	TRADE_ROUTE_ACCEPTABLE_SPENDING = 0.05	# 0.002
+	TRADE_ROUTE_MARKET_RANDOM_FACTOR = 0.5	# 1
+	TRADE_ROUTE_GOODS_RANDOM_FACTOR = 0.5	# 1
+	TRADE_ROUTE_EXPORT_VS_IMPORT_TOLERANCE = 25 # 3
+	TRADE_ROUTE_REPLACE_THRESHOLD = 3.0		# 5
+	TRADE_ROUTE_REDUCE_SHORTAGE_MULT = 20	# 10
+	TRADE_ROUTE_IMPORT_SCORE_MULT = 5.0 	# 1	# How much does AI multiply score of import routes
+	TRADE_ROUTE_EXPORT_SCORE_MULT = 10.0	# 1.5 # How much does AI multiply score of export routes
+	
+	
+	PRODUCTION_BUILDING_AUTONOMOUS_INVESTMENT_RANDOM_FACTOR_MULT = 0.5 			# Multiplies PRODUCTION_BUILDING_RANDOM_FACTOR for autonomous investment pool constructions
+	PRODUCTION_BUILDING_AUTONOMOUS_INVESTMENT_PROFIT_FACTOR_MULT = 4 			# Multiplies PRODUCTION_BUILDING_GOODS_PROFIT_FACTOR for autonomous investment pool constructions
+	PRODUCTION_BUILDING_AUTONOMOUS_INVESTMENT_BELOW_DESIRED_INFRASTRUCTURE_FACTOR_MULT = 8 # Multiplies PRODUCTION_BUILDING_BELOW_DESIRED_INFRASTRUCTURE_FACTOR for autonomous investment pool constructions
+	
+
+	
+	# Below data is used to calculate how much weight the AI places on a production buildingPRODUCTION_BUILDING_BASE_VALUE = 1000 # If no ai_value is scripted in the building
+	PRODUCTION_BUILDING_NO_AVAILABLE_WORKFORCE_FACTOR = 0.1 # Total weight is multiplied by this if the state lacks enough workforce to staff the building
+	PRODUCTION_BUILDING_INPUT_NO_LOCAL_PRODUCTION_FACTOR = -0.25 # Add this value to a building for each unit of money worth of goods consumed that are not produced in the state but *are* produced by buildings in the market
+	PRODUCTION_BUILDING_OUTPUT_NO_LOCAL_CONSUMPTION_FACTOR = -0.25 # Add this value to a building for each unit of money worth of goods produced that are not consumed in the state but *are* consumed by buildings in the market
+	PRODUCTION_BUILDING_OUTPUT_NEW_GOODS_FACTOR = 100.0 # Add this value to a building for each unit of money worth of goods that currently isn't available in our market but the AI wants to prioritize
+	PRODUCTION_BUILDING_OUTPUT_WANTED_INDUSTRIAL_GOODS_FACTOR = 0.4 # Add this value to a building for each unit of money worth of industrial goods that aren't overproduced in the country and are used by buildings
+	PRODUCTION_BUILDING_OUTPUT_WANTED_MILITARY_GOODS_FACTOR = 0.4 # Add this value to a building for each unit of money worth of military goods that aren't overproduced in the country and are used by buildings
+	PRODUCTION_BUILDING_DISFAVORED_GOODS_FACTOR = -0.25 # Add this value to a building for each unit of money worth of building goods output that the AI disfavors
+	PRODUCTION_BUILDING_MISSING_QUALIFICATIONS_MULT = 0.25 # Multiply score by this if there's not enough qualifications to staff the building (disabled for now)
+	PRODUCTION_BUILDING_DESIRED_INFRASTRUCTURE_SURPLUS = 10 # If infrastructure 'surplus' in state is less than this, AI wants to improve it
+	PRODUCTION_BUILDING_EXCESSIVE_INFRASTRUCTURE_SURPLUS = 11 # If infra 'surplus' in state is at least this, AI doesn't want to improve it
+	
+	
+	# Below data is used to calculate how much weight the AI places on a production method	
+	PRODUCTION_METHOD_FAVORED_MILITARY_GOODS_FACTOR = 2.0 # Per base cost * units of goods produced that the AI favors (for military goods)
+	PRODUCTION_METHOD_CHANCE_TO_CHANGE = 0.5 # Chance that the AI will consider changing a production method when evaluating methods
+	PRODUCTION_METHOD_EMPLOYMENT_CHANGE_FACTOR = -0.75 # Per extra employee the employment method would require (reduced employment = higher score)
+	
+	NUM_GROWING_COLONIES_MAX = 2 # No more than this amount of growing colonies at once, regardless of amount of colonial growth points
+}

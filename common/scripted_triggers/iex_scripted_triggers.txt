@@ -1,0 +1,43 @@
+﻿IEX_is_active_trigger = {
+	always = yes
+}
+
+is_densely_forested = {
+	OR = {
+		has_state_trait = state_trait_amazon_rainforest
+		has_state_trait = state_trait_amazon_rainforest_level_1
+		has_state_trait = state_trait_amazon_rainforest_level_2
+		has_state_trait = state_trait_congo_forest
+		has_state_trait = state_trait_burmese_teak
+		has_state_trait = state_trait_borneo_rainforest
+		has_state_trait = state_trait_floridian_wetlands
+		has_state_trait = state_trait_indochinese_forest
+	}
+}
+
+is_difficult_terrain = {
+	OR = {
+		has_state_trait = state_trait_scottish_highlands
+		has_state_trait = state_trait_cascades
+		has_state_trait = state_trait_northern_california_coastal_forests
+		has_state_trait = state_trait_sierra_madre_oriental
+		has_state_trait = state_trait_sierra_madre_occidental
+		has_state_trait = state_trait_central_american_cordilleras
+		has_state_trait = state_trait_andes
+		has_state_trait = state_trait_zagros_mountains
+		has_state_trait = state_trait_alborz_mountains
+		has_state_trait = state_trait_great_dividing_range
+	}
+}
+
+is_very_difficult_terrain = {
+	OR = {
+		has_state_trait = state_trait_northern_canadian_terrain
+		has_state_trait = state_trait_rocky_mountains
+		has_state_trait = state_trait_alps_mountains
+		has_state_trait = state_trait_caucasus_mountains
+		has_state_trait = state_trait_atlas_mountains
+		has_state_trait = state_trait_baluchistan_mountains
+		has_state_trait = state_trait_himalayas_mountains
+	}
+}

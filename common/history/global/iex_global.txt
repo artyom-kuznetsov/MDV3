@@ -1,0 +1,60 @@
+﻿GLOBAL = {
+	every_country = {
+		limit = {
+			OR = {
+				AND = {
+					exists = c:USA
+					this = c:USA
+				}
+				AND = {
+					exists = c:GBR
+					this = c:GBR
+				}
+				AND = {
+					exists = c:PRU
+					this = c:PRU
+				}
+				AND = {
+					exists = c:BEL
+					this = c:BEL
+				}
+				AND = {
+					exists = c:FRA
+					this = c:FRA
+				}
+			}
+		}
+		add_technology_researched = mechanical_production
+		activate_production_method = {
+			building_type = building_tooling_workshops
+			production_method = pm_steel
+		}
+	}
+	
+	c:GBR = {
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_LANCASHIRE
+			}
+			remove_building = building_textile_mills
+			
+			create_building={
+				building="building_luxury_clothes_factories"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:GBR"
+						levels=17
+						region="STATE_HOME_COUNTIES"
+					}
+					country={
+						country="c:GBR"
+						levels=6
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_workshops_luxury"  "pm_craftsman_sewing_luxury" "pm_dyed_clothes_luxury" }
+			}
+		}
+	}
+}

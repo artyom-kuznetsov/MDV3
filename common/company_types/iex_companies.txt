@@ -1,0 +1,83 @@
+﻿
+company_iex_lumber_union = {
+	icon = "gfx/interface/icons/company_icons/basic_forestry.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
+	
+	uses_dynamic_naming = yes
+	
+	dynamic_company_type_names = {
+		"dynamic_company_type_company"
+		"dynamic_company_type_consortium"
+		"dynamic_company_type_corporation"
+		"dynamic_company_type_conglomerate"
+		"dynamic_company_type_syndicate"
+		"dynamic_company_type_combine"
+		"dynamic_company_type_guild"
+	}
+	
+	building_types = {
+		building_lumber_mill
+		building_logging_camp
+		building_forestry
+	}
+
+	possible = { 
+		any_scope_state = {
+			any_scope_building = {
+				OR = {
+					is_building_type = building_lumber_mill
+					is_building_type = building_logging_camp
+					is_building_type = building_forestry
+				}
+				level >= 3
+			}
+		}
+	}
+	
+	prosperity_modifier = {		
+		building_chemical_plants_throughput_add = 0.1
+		building_military_shipyards_throughput_add = 0.05
+	}	
+}
+
+company_iex_refining_concern = {
+	icon = "gfx/interface/icons/company_icons/basic_oil.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
+	
+	uses_dynamic_naming = yes
+	
+	dynamic_company_type_names = {
+		"dynamic_company_type_company"
+		"dynamic_company_type_consortium"
+		"dynamic_company_type_corporation"
+		"dynamic_company_type_conglomerate"
+		"dynamic_company_type_syndicate"
+		"dynamic_company_type_combine"
+		"dynamic_company_type_guild"
+	}
+	
+	building_types = {
+		building_oil_refinery
+		building_synthetics_plants
+		building_sugar_substitute_factory
+	}
+
+	possible = { 
+		any_scope_state = {
+			any_scope_building = {
+				OR = {
+					is_building_type = building_oil_refinery
+					is_building_type = building_synthetics_plants
+					is_building_type = building_sugar_substitute_factory
+				}
+				level >= 3
+			}
+		}
+	}
+	
+	prosperity_modifier = {		
+		building_group_bg_oil_extraction_throughput_add = 0.1
+		building_sulfur_mine_throughput_add = 0.05
+		state_pollution_reduction_health_mult = -0.05
+	}	
+}

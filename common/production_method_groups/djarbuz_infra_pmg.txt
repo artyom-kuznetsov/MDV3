@@ -1,0 +1,28 @@
+﻿
+pmg_base_building_roads = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_dirt_roads
+		pm_gravel_roads
+		pm_paved_roads
+		pm_asphalt_roads
+	}
+}
+
+pmg_base_building_railway = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_early_trains
+		pm_steam_trains
+		pm_electric_trains
+		pm_diesel_trains
+		pm_high_speed_electric_trains
+		pm_high_speed_diesel_trains
+		pm_electric_trains_principle_transport_3
+		pm_diesel_trains_principle_transport_3
+	}
+}

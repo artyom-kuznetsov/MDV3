@@ -1,0 +1,393 @@
+﻿
+pmg_base_building_munition_plants = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_paper_cartridges
+		pm_percussion_caps
+		pm_steel_ammo
+		pm_explosive_shells
+	}
+}
+
+pmg_filler_building_munition_plants = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_gunpowder_filler
+		pm_explosive_filler
+	}
+}
+
+
+pmg_automation_building_food_industry = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_manual_dough_processing
+		pm_electric_ovens_bakery
+		pm_automated_bakery
+	}
+}
+
+pmg_base_building_furniture_manufacturies = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_handcrafted_furniture
+		pm_lathe
+		pm_mechanized_workshops
+		pm_plastic_furniture
+	}
+}
+
+pmg_luxury_building_furniture_manufacturies = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_no_luxuries
+		pm_luxury_furniture
+		pm_precision_tools
+		pm_luxury_furniture_focus
+	}
+}
+
+
+pmg_sewing_luxury = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_handsewing_luxury
+		pm_workshops_luxury
+		pm_sewing_machines_luxury
+		pm_electric_sewing_machines_luxury
+	}
+}
+
+pmg_fabric_luxury = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_craftsman_sewing_luxury
+		pm_elastics_luxury
+	}
+}
+
+pmg_dyes_luxury = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_dye
+		pm_dyed_clothes_luxury
+		pm_dyed_clothes_2_luxury
+	}
+}
+
+pmg_sewing_textile = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_handsewing
+		pm_workshops
+		pm_sewing_machines
+		pm_electric_sewing_machines
+	}
+}
+
+pmg_fabric_textile = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_simple_fabric
+		pm_craftsman_sewing
+		pm_elastics
+	}
+}
+
+pmg_dyes_textile = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_dye
+		pm_dyed_clothes
+		pm_dyed_clothes_2
+	}
+}
+
+pmg_assembly_artillery = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_handcrafting_artillery
+		pm_workingtools_artillery
+		pm_watertube_artillery
+		pm_pneumatic_artillery
+		pm_electric_drive_artillery
+		pm_assembly_artillery
+	}
+}
+
+pmg_foundries = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_cannons
+		pm_smoothbores
+		pm_breech_loaders
+		pm_recoiled_barrels
+	}
+}
+
+#pmg_assembly_machine = {
+#	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+#	production_methods = {
+#		pm_handcrafting_machine
+#		pm_workingtools_machine
+#		pm_watertube_machine
+#		pm_pneumatic_machine
+#		pm_electric_drive_machine
+#		pm_assembly_machine
+#	}
+#}
+#
+#pmg_base_machine_parts = {
+#	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+#	production_methods = {
+#		pm_simplified_machines
+#		pm_proprietary_machines
+#		pm_rotary_machines
+#		pm_belt_transmission_machines
+#		pm_compact_machines
+#		pm_automatic_machines
+#	}
+#}
+#
+pmg_boilers = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_boilers
+		pm_low_pressure_boilers
+		pm_high_pressure_boilers
+	}
+}
+
+pmg_automobile_production = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_automobile_production_early
+		pm_automobile_production_late
+	}
+}
+
+pmg_automation_building_solid = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_automation_disabled_solid
+		pm_mixing_machines
+		pm_centrifuge
+	}
+}
+
+pmg_automation_building_paper_mill = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_automation_disabled_solid
+		pm_rotary_press
+		pm_automatic_press
+	}
+}
+
+pmg_assembly_paper = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_handcrafting_paper
+		pm_workingtools_paper
+		pm_watertube_paper
+		pm_pneumatic_paper
+		pm_electric_drive_paper
+		pm_assembly_paper
+	}
+}
+
+pmg_sugar_sub_base = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_fructose
+		pm_saccharin
+	}
+}
+
+pmg_base_building_tooling_workshops = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_crude_tools
+		pm_pig_iron
+		pm_steel
+		pm_rubber_grips
+	}
+}
+
+pmg_base_building_lumber_mill = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_manual_sawing_lm
+		pm_powered_sawing_lm
+		pm_electrical_saw_lm
+	}
+}
+
+pmg_secondary_building_lumber_mill = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_secondary_treatment
+		pm_minimal_chemical_treatment
+		pm_full_chemical_treatment
+	}
+}
+
+pmg_distillation_fuel = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_oil_distillation
+		pm_synthetic_diversion
+		pm_synthetic_oil
+		pm_thermal_cracking
+	}
+}
+
+pmg_plastics = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_no_plastics
+		pm_plastics_production
+		pm_extensive_plastic_production
+		pm_plastic_focus
+	}
+}
+
+pmg_base_building_motor_industry = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_early_steam_engines
+		pm_steam_engines
+		pm_electric_engines
+		pm_diesel_engines
+	}
+}
+
+pmg_synthetic_dyes = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_no_dye
+		pm_ink_flower_dye_production
+		pm_dye_production
+	}
+}
+
+pmg_synthetic_silk = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_rayon
+		pm_rayon_modern
+	}
+}
+
+pmg_synthetic_rubber = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_no_synthetic_rubber
+		pm_isoprene
+		pm_bytadiene
+		pm_extended_rubber_facilities
+	}
+}
+
+pmg_base_paper = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_pulp_pressing
+		pm_sulfite_pulping
+		pm_ink_paper
+		pm_bleached_paper
+	}
+}
+
+pmg_distillery = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_alcohol_production
+		pm_pot_stills
+		pm_patent_stills
+	}
+}
+
+pmg_winery = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_no_wine_production
+		pm_wine_production
+		pm_wine_focus
+	}
+}
+
+pmg_automation_building_liquor_industry = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_automation_disabled
+		pm_watertube_boiler_building_steel_mills
+		pm_rotary_valve_engine_building_steel_mills
+	}
+}
+
+pmg_base_building_food_industry = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_bakery
+		pm_sweeteners
+		pm_baking_powder
+	}
+}
+
+pmg_food_secondary = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_use
+		pm_cheese_production
+		pm_creamery
+	}
+}
+
+pmg_canning = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_disabled_canning
+		pm_fish_canning
+		pm_fruit_canning
+		pm_meat_canning
+		pm_extended_fish_canning
+		pm_extended_fruit_canning
+		pm_extended_meat_canning
+	}
+}
+
+
+pmg_telephones_category = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_telephones
+		pm_plastic_telephones
+	}
+}
+
+pmg_radios_category = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_no_radios
+		pm_radios
+		pm_more_radios
+		pm_lotta_radios
+	}
+}
+
+pmg_explosives_building_chemical_plants = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_leblanc_process
+		pm_ammonia-soda_process
+		pm_vacuum_evaporation
+		pm_brine_electrolysis
+	}
+}

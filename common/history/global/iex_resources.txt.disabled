@@ -1,0 +1,236 @@
+﻿GLOBAL = {
+		## WEST EUROPE
+		s:STATE_HANNOVER = { add_state_trait = state_trait_tiny_copper_field }
+		s:STATE_LEINSTER = { add_state_trait = state_trait_tiny_copper_field }
+		s:STATE_WEST_COUNTRY = { add_state_trait = state_trait_tiny_copper_field }
+		s:STATE_GOTALAND = { add_state_trait = state_trait_tiny_copper_field }
+		s:STATE_OSTROBOTHNIA = { add_state_trait = state_trait_tiny_copper_field }
+		s:STATE_NORRLAND = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_LOWLANDS = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_PROVENCE = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_LANCASHIRE = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_HIGHLANDS = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_SAXONY = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_FRANCONIA = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_WEST_SWITZERLAND = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_WALES = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_HESSE = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_EAST_SWITZERLAND = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_BADEN = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_MIDLANDS = { add_state_trait = state_trait_large_copper_field }
+		s:STATE_MUNSTER = { add_state_trait = state_trait_large_copper_field }
+	
+		## SOUTH EUROPE
+		s:STATE_BALEARES = { add_state_trait = state_trait_tiny_copper_field }
+		s:STATE_ARAGON = { add_state_trait = state_trait_tiny_copper_field }
+		s:STATE_PIEDMONT = { add_state_trait = state_trait_tiny_copper_field }
+		s:STATE_SARDINIA = { add_state_trait = state_trait_huge_copper_field }
+		s:STATE_NORTHERN_THRACE = { add_state_trait = state_trait_huge_copper_field }
+		s:STATE_SAVOY = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_EASTERN_THRACE = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_VENETIA = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_BULGARIA = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_VALENCIA = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_NORTHERN_SERBIA = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_SKOPIA = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_MACEDONIA = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_WESTERN_THRACE = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_SOUTHERN_SERBIA = { add_state_trait = state_trait_large_copper_field }
+		
+		## EAST EUROPE
+		s:STATE_VOLHYNIA = { add_state_trait = state_trait_tiny_copper_field }
+		s:STATE_KHARKOV = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_PERM = { add_state_trait = state_trait_large_copper_field }
+		s:STATE_SILESIA = { add_state_trait = state_trait_large_copper_field }
+		s:STATE_WEST_SLOVAKIA = { add_state_trait = state_trait_large_copper_field }
+		s:STATE_LESSER_POLAND = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_WEST_GALICIA = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_SOUTHERN_TRANSYLVANIA = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_NORTHERN_TRANSYLVANIA = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_CENTRAL_HUNGARY = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_BEKES = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_EAST_SLOVAKIA = { add_state_trait = state_trait_huge_copper_field }
+		
+		## NORTH AFRICA
+		s:STATE_EASTERN_MALI = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_SINAI = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_MARRAKECH = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_ERITREA = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_ORAN = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_WESTERN_MALI = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_NIGER = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_INNER_MOROCCO = { add_state_trait = state_trait_large_copper_field }
+		
+		## SUBSAHARAN
+		s:STATE_UGANDA = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_CONGO = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_SOUTH_ANGOLA = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_BOTSWANA = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_ZAMBIA = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_CONGO_ORIENTALE = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_KATANGA = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_ZAMBEZI = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_TRANSVAAL = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_NAMAQUALAND = { add_state_trait = state_trait_large_copper_field }
+		
+		## NORTH AMERICA
+		s:STATE_NEW_MEXICO = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_BAJA_CALIFORNIA = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_CALIFORNIA = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_OKLAHOMA = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_NEW_YORK = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_MAINE = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_MARYLAND = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_PENNSYLVANIA = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_NEW_JERSEY = { add_state_trait = state_trait_tiny_copper_field }
+		s:STATE_VERACRUZ = { add_state_trait = state_trait_tiny_copper_field }
+		s:STATE_VIRGINIA = { add_state_trait = state_trait_tiny_copper_field }
+		s:STATE_ONTARIO = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_NEW_BRUNSWICK = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_QUEBEC = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_SASKATCHEWAN = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_YUKON_TERRITORY = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_NORTHWEST_TERRITORIES = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_ALASKA = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_ARIZONA = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_NEW_MEXICO = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_JALISCO = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_IDAHO = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_MONTANA = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_WASHINGTON = { add_state_trait = state_trait_large_copper_field }
+		s:STATE_CHIHUAHUA = { add_state_trait = state_trait_large_copper_field }
+		s:STATE_NEVADA = { add_state_trait = state_trait_large_copper_field }
+		s:STATE_ALBERTA = { add_state_trait = state_trait_large_copper_field }
+		s:STATE_BRITISH_COLUMBIA = { add_state_trait = state_trait_huge_copper_field }
+		
+		## CENTRAL AMERICA
+		s:STATE_PANAMA = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_HAITI = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_CUBA = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_SANTO_DOMINGO = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_PUERTO_RICO = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_JAMAICA = { add_state_trait = state_trait_tiny_copper_field }
+		
+		## SOUTH AMERICA big boy
+		s:STATE_ECUADOR = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_ANTIOQUIA = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_SAO_PAULO = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_PERNAMBUCO = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_MINAS_GERAIS = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_ICA = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_TUCUMAN = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_JUJUY = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_RIO_NEGRO = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_POTOSI = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_CAJAMARCA = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_CAUCA = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_PIAUI = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_GOIAS = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_RIO_GRANDE_DO_SUL = { add_state_trait = state_trait_tiny_copper_field }
+		s:STATE_MATO_GROSSO = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_CUNDINAMARCA = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_ANTOFAGASTA = { add_state_trait = state_trait_gigantic_copper_field }
+		s:STATE_LIMA = { add_state_trait = state_trait_large_copper_field }
+		s:STATE_PATAGONIA = { add_state_trait = state_trait_large_copper_field }
+		s:STATE_LOS_RIOS = { add_state_trait = state_trait_large_copper_field }
+		s:STATE_SANTIAGO = { add_state_trait = state_trait_huge_copper_field }
+		
+		## MIDDLE EAST explosive mining
+		s:STATE_HEDJAZ = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_TRANSJORDAN = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_LARISTAN = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_TABRIZ = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_LURISTAN = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_KARS = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_SISTAN = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_FARS = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_ISFAHAN = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_TRABZON = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_HUDAVENDIGAR = { add_state_trait = state_trait_large_copper_field }
+		s:STATE_ERZURUM = { add_state_trait = state_trait_large_copper_field }
+		
+		## CENTRAL ASIA
+		s:STATE_GREATER_CAUCASUS = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_URALSK = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_BALUCHISTAN = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_UZBEKIA = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_AKMOLINSK = { add_state_trait = state_trait_large_copper_field }
+		s:STATE_SAMARA = { add_state_trait = state_trait_large_copper_field }
+		s:STATE_SEMIRECHE = { add_state_trait = state_trait_large_copper_field }
+		s:STATE_LHASA = { add_state_trait = state_trait_large_copper_field }
+		s:STATE_TAJIKISTAN = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_SYRDARYA = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_HERAT = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_KIRGHIZIA = { add_state_trait = state_trait_small_copper_field }
+		
+		## INDIA
+		s:STATE_PUNJAB = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_NAGPUR = { add_state_trait = state_trait_large_copper_field }
+		s:STATE_CIRCARS = { add_state_trait = state_trait_large_copper_field }
+		
+		## EAST ASIA
+		s:STATE_JIANGXI = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_KACHIN = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_ZHEJIANG = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_LAOS = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_DZUNGARIA = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_OUTER_MANCHURIA = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_BEIJING = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_ULIASTAI = { add_state_trait = state_trait_huge_copper_field }
+		s:STATE_URGA = { add_state_trait = state_trait_gigantic_copper_field }
+		s:STATE_SICHUAN = { add_state_trait = state_trait_huge_copper_field }
+		s:STATE_YUNNAN = { add_state_trait = state_trait_huge_copper_field }
+		s:STATE_XIAN = { add_state_trait = state_trait_large_copper_field }
+		s:STATE_SOUTHERN_ANHUI = { add_state_trait = state_trait_large_copper_field }
+		s:STATE_SHAOZHOU = { add_state_trait = state_trait_large_copper_field }
+		s:STATE_HINGGAN = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_SOUTHERN_MANCHURIA = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_SUZHOU = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_WESTERN_HUBEI = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_NORTHERN_MANCHURIA = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_CAMBODIA = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_NAKHON_RATCHASIMA = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_CHIANG_MAI = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_SHANXI = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_GUANGXI = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_SARIWON = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_PYONGYANG = { add_state_trait = state_trait_large_copper_field }
+		s:STATE_KANTO = { add_state_trait = state_trait_large_copper_field }
+		s:STATE_SHIKOKU = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_KYUSHU = { add_state_trait = state_trait_medium_copper_field }
+		
+		## INDONESIA
+		s:STATE_MOLUCCAS = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_SUNDA_ISLANDS = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_WESTERN_NEW_GUINEA = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_ACEH = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_SOLOMON_ISLANDS = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_CELEBES = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_MALAYA = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_WEST_JAVA = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_NORTH_BORNEO = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_NORTH_SUMATRA = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_VISAYAS = { add_state_trait = state_trait_large_copper_field }
+		s:STATE_LUZON = { add_state_trait = state_trait_large_copper_field }
+		s:STATE_WEST_BORNEO = { add_state_trait = state_trait_large_copper_field }
+		s:STATE_EASTERN_NEW_GUINEA = { add_state_trait = state_trait_huge_copper_field }
+		s:STATE_MINDANAO = { add_state_trait = state_trait_huge_copper_field }
+		
+		## AUSTRALASIA
+		s:STATE_NEW_SOUTH_WALES = { add_state_trait = state_trait_huge_copper_field }
+		s:STATE_QUEENSLAND = { add_state_trait = state_trait_large_copper_field }
+		s:STATE_SOUTH_AUSTRALIA = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_WESTERN_AUSTRALIA = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_NORTH_ISLAND = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_NORTHERN_TERRITORY = { add_state_trait = state_trait_tiny_copper_field }
+		
+		## SIBERIA
+		s:STATE_IRKUTSK = { add_state_trait = state_trait_large_copper_field }
+		s:STATE_URAL = { add_state_trait = state_trait_large_copper_field }
+		s:STATE_TUVA = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_CHUKOTKA = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_KAMCHATKA = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_NENETSIA = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_OKHOTSK = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_TRANS_BAIKAL = { add_state_trait = state_trait_medium_copper_field }
+}

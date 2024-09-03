@@ -1,0 +1,32 @@
+﻿
+#machine_parts = {
+#	texture = "gfx/interface/icons/goods_icons/machine_parts.dds"
+#	cost = 50
+#	category = industrial
+#	
+#	prestige_factor = 5
+#}
+#
+#copper = {
+#	texture = "gfx/interface/icons/goods_icons/copper.dds"
+#	cost = 30
+#	category = industrial
+#	
+#	prestige_factor = 5
+#}
+
+fuel = {
+	texture = "gfx/interface/icons/goods_icons/fuel.dds"
+	cost = 50
+	category = industrial
+	
+	prestige_factor = 5
+}
+
+plastics = {
+	texture = "gfx/interface/icons/goods_icons/plastics.dds"
+	cost = 50
+	category = industrial
+	
+	prestige_factor = 5
+}
